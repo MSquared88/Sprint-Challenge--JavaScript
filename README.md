@@ -48,7 +48,7 @@ window binding: The window is where everything in JavaScript exists. When "this"
 
 implicit binding: When we call a method using dot notation on an object the "this" in that function refers to whatever is to the left of the dot notation.It is implied to be (this).  
 
-explicit binding:  Explicit binding lets us explicitly state what this refers to by using a one of the  methods call(), apply(), or bind() on an object 
+explicit binding:  Explicit binding lets us explicitly state what (this) refers to by using a one of the  methods call(), apply(), or bind() on an object 
 
 new binding: When we use the new keyword to make a new object along with a constructor function that has the (this) keyword inside it to build the object. The (this) keyword is bound to whatever name we give that new object.
 
